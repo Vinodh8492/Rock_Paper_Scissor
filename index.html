@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rough.js Example</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <center>
+
+<div class="starting">
+        <div class="toppest">
+
+            <div id="t1">
+                <p class="para">  ROCK </p>
+                <p class="para"> PAPER </p>
+                <p class="para"> SCISSORS  </p>
+            </div>
+
+            <div id="t2">
+                <p> COMPUTER </p>
+                <p> SCORE </p>
+                <span id="computer-score">0</span>
+            </div>
+
+            <div id="t3">
+                <p> YOUR </p>
+                <p> SCORE </p>
+                <span id="user-score">0</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    </center>
+
+    <center>
+
+
+        <div id="choices-row-container" class="game-container"></div>
+        
+
+        <div class="line1img">
+
+
+
+            <div class="image-container1">
+                <img id="img1" src="rockbg.svg" alt="Outer Image">
+                
+                <!-- Apply the overlay-image class to the inner image -->
+                <img id="overlay-image1" src="icons8-fist-67 1.svg" alt="Inner Image" style="cursor: pointer;"
+                    onclick="game()">
+                
+            </div>
+            
+            
+            <div class="image-container2">
+                <img id="img2" src="scissorbg.svg" alt="Outer Image">
+
+                <!-- Apply the overlay-image class to the inner image -->
+                <img id="overlay-image2" src="scissor.svg" alt="Inner Image" style="cursor: pointer;"
+                    onclick="game()">
+            </div>
+
+        </div>
+
+
+
+        <div id="remaining-choices" class="image-container" style="display: none;">
+            <!-- The remaining choices will be displayed here -->
+        </div>
+
+
+
+        
+        
+
+
+
+
+        <div class="image-container3">
+            <img id="img3" src="paperbg.svg" alt="Outer Image">
+
+            <!-- Apply the overlay-image class to the inner image -->
+            <img id="overlay-image3" src="icons8-hand-64 1.svg" alt="Inner Image" style="cursor: pointer;"
+                onclick="game()">
+        </div>
+
+        <div class="result">
+            
+            
+        </div>
+        <button id="play-again" onclick="replay()" style="cursor: pointer; display: none;"> PLAY AGAIN </button>
+   
+
+        
+
+
+
+    </center>
+
+    
+
+    <div id="choices-row-container">
+
+    </div>
+
+    <div class="bottom-right-container">
+        <img id="rulesImage" src="rules.svg" alt="Rules Image" class="rules-image" onclick="toggleRules()">
+        <button id="showbutton" style="cursor: pointer" onclick="toggleRules()">RULES</button>
+        <!-- Image to be shown/hidden -->
+        <!-- Image to be shown/hidden -->
+       
+
+<button id="nextButton" style="cursor: pointer; display: none;" onclick="redirectToIndex()">NEXT</button>
+</div>
+
+
+
+
+    <script src="rough.js" defer> </script>
+
+
+
+</body>
+
+</html>
