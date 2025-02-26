@@ -1,0 +1,256 @@
+body{
+    background-color:#89C15E;
+    
+}
+
+.starting{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2%;
+}
+.toppest{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-radius: 15px;
+    padding: 10px;
+    border-color: white;
+    background-color: #89C15E;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: flex-start;
+    
+  
+  
+}
+
+.para{
+  font-size: 30px;
+}
+
+#t1{
+    
+    color: white;
+    text-align: left;
+    align-items: flex-start;
+    margin-right: 500px;
+   
+    
+}
+
+#t2{
+    color:black;
+    border: solid;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: white;
+    background-color: white;
+    margin-right: 25px;
+    width: 125px;
+
+   
+}
+
+#computer-score{
+  font-size: 75px;
+   
+  
+}
+#user-score{
+  font-size: 75px;
+  
+}
+
+#t3{
+    color:black;
+    border: solid;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: white;
+    background-color: white;
+    width: 125px;
+    
+   
+
+}
+
+.image-container1 {
+    position: relative;
+    width: 175px; /* Adjust the width as needed */
+  }
+
+#overlay-image1 {
+    position: absolute;
+    top: 50%; /* Adjust to position vertically */
+    left: 50%; /* Adjust to position horizontally */
+    transform: translate(-50%, -50%);
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+  }
+
+  .image-container2 {
+    position: relative;
+    width: 175px; /* Adjust the width as needed */
+  }
+
+#overlay-image2 {
+    position: absolute;
+    top: 50%; /* Adjust to position vertically */
+    left: 50%; /* Adjust to position horizontally */
+    transform: translate(-50%, -50%);
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+  }
+
+  .image-container3 {
+    position: relative;
+    width: 175px; /* Adjust the width as needed */
+  }
+
+#overlay-image3 {
+    position: absolute;
+    top: 50%; /* Adjust to position vertically */
+    left: 50%; /* Adjust to position horizontally */
+    transform: translate(-50%, -50%);
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+  }
+
+
+.line1img{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#showbutton{
+    float:right;
+    margin-left: 20px;
+    border: solid;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    background-color:#89C15E;
+    width:80px;
+    height: 30px;
+}
+
+#nextButton{
+  border: solid;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    background-color:#89C15E;
+    width:80px;
+    height: 30px;
+}
+
+
+
+.choice-container.left-choice {
+  float: left;
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.choice-container.right-choice {
+  float: right;
+  margin-left: 10px; /* Adjust as needed */
+}
+
+.choice-container {
+  position: relative;
+  width: 175px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+   /* Adjust the width as needed */
+}
+
+.choice-container img {
+  position: absolute;
+  top: 50%; /* Adjust to position vertically */
+  left: 50%; /* Adjust to position horizontally */
+  transform: translate(-50%, -50%);
+  width: 75px; /* Adjust the width as needed */
+  height: auto;
+}
+
+
+
+.game-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.bottom-right-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  text-align: right;
+}
+
+/* Add this class to hide the rules image initially */
+.hidden {
+  display: none;
+}
+
+.rules-image {
+  
+  display: none;
+  width: 350px; /* Adjust the width as needed */
+  height: 350px; /* Maintain the aspect ratio */
+  
+}
+
+.result{
+  padding-top: 100px;
+  color: white;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+/* Style for the outer image of the user choice inside the container */
+.choice-container.left-choice img:first-child {
+  /* Add your styling properties for the outer image of user choice here */
+  /* Example styles: */
+  width: 200px;
+  /* Add any other styling properties as needed */
+}
+
+/* Style for the outer image of the computer choice inside the container */
+.choice-container.right-choice img:first-child {
+  /* Add your styling properties for the outer image of computer choice here */
+  /* Example styles: */
+  width: 200px;
+  /* Add any other styling properties as needed */
+}
+
+
+
+.choice-container img.winning-gradient {
+  border-radius: 100px;
+  border:none;
+  box-shadow: 0 0 20px 25px rgb(11, 135, 11), 0 0 20px 40px rgb(32, 162, 64), 0 0 10px 50px rgb(48, 165, 48);
+}
+
+#play-again{
+  width:120px;
+  border: solid ;
+  border-radius: 5px;
+  border-color: white;
+  height: 30px;
+}
+
+.picked-statements-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.picked-statement {
+  color: white; /* Change the color as desired */
+  font-size: 25px; /* Adjust the margin as needed */
+  margin-right: 40px;
+  margin-left: 45px;
+}

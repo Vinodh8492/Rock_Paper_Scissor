@@ -1,0 +1,84 @@
+*{
+  background-color:#89C15E;
+}
+
+.happypage{
+    padding-top: 5vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .background-image {
+    width: 600px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+  }
+  
+  .overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    padding-bottom: 0px;
+    /* Adjust width and height as needed */
+  }
+  
+  #hurray{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+    
+  }
+  
+  #won{
+    font-size: 40px;
+    color: white;
+    margin-top: -100px;
+  }
+  
+  
+  
+  #battu{
+    width:120px;
+    border: solid ;
+    border-radius: 5px;
+    border-color: white;
+    height: 30px;
+    background-color: white;
+    
+  }
+
+  .bottom-right-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    text-align: right;
+  }
+
+  .rules-image {
+  
+    display: none;
+    width: 350px; /* Adjust the width as needed */
+    height: 350px; /* Maintain the aspect ratio */
+    
+  }
+
+  #showbutton{
+    float:right;
+    margin-left: 20px;
+    border: solid;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    background-color:#89C15E;
+    width:80px;
+    height: 30px;
+}
